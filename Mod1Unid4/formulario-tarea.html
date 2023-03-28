@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto con Lautaro Dubedout</title>
+    <link rel="stylesheet" href="formulario-tarea.css">
+</head>
+<body>
+    <h1>Contacto.</h1>
+    <p>
+        <label for="nombre">Nombre y apellido</label>
+        <input type="text" name="Nombre"/>
+    </p>
+    <p>
+        <label for="nombre">Mail</label>
+        <input type="text" name="Mail"/>
+    </p>
+    <ul>
+        <li> 
+            <input type="checkbox" name="Tipo de propuesta:[]" value="Programador">
+            <label for="Programador">Programador</label>
+        </li>
+        <li> 
+            <input type="checkbox" name="Tipo de propuesta:[]" value="Fotografo">
+            <label for="Fotografo">Fotografo</label>
+        </li>
+        <li> 
+            <input type="checkbox" name="Tipo de propuesta:[]" value="Editor">
+            <label for="Editor">Editor</label>
+        </li>
+
+    </ul>
+   
+    <p>
+        <label for="Tiempo">Tiempo</label>
+        <select name="Tiempo">
+            <option value="Full Time.">Full Time</option>
+            <option value="Trabajo temporal.">Trabajo temporal</option>
+            <option value="Proyecto unico.">Proyecto unico</option>
+        </select>
+    </p>
+
+<div class="propuesta">
+    <P>
+        <label for="Propuesta">Propuesta</label>
+        <textarea name="Propuesta" placeholder="Escriba aqui su respuesta..."></textarea>
+    </P>
+</div>
+
+    <input type="submit" value="Enviar">
+</body>
+</html>
