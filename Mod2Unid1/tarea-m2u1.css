@@ -1,0 +1,55 @@
+body {
+    background:#af92ff;
+    font-size: 30px;
+}
+
+img {
+    border: 3px solid;
+    color: rgb(140, 142, 255);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background: rgb(172,149,253);
+background: linear-gradient(90deg, rgba(172,149,253,1) 0%, rgba(70,252,186,1) 50%, rgba(175,146,255,1) 99%);
+}
+
+div {
+    margin-left: 10px;
+}
+
+h2 {
+    background: rgb(70,252,186);
+background: linear-gradient(90deg, rgba(70,252,186,1) 29%, rgba(172,149,253,1) 66%, rgba(175,146,255,1) 99%);
+}
+
+.destacados {
+    font-weight: bold;
+    color: #7700ff;
+    text-shadow: -11px -2px 12px rgba(0,0,0,0.63);
+}
+
+ul {
+    background-color: rgb(72, 194, 157);
+    box-shadow: 9px 12px 27px -3px rgba(0, 0, 0, 0.77);
+    -webkit-box-shadow: 9px 12px 27px -3px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow: 9px 12px 27px -3px rgba(0, 0, 0, 0.77);
+    border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    width: 300px;
+    height: 198px;
+    border: 5px solid;
+    color: black;
+    box-sizing: border-box;
+
+}
+
+p {
+    width: 1500px;
+    line-height: 50px;
+    margin-left: 10px;
+    border: 5px solid;
+    border-color: wheat;
+}

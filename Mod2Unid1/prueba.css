@@ -1,0 +1,37 @@
+.destacado {
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    box-shadow: 51px 10px 126px 19px rgba(0,0,0,0.88);
+-webkit-box-shadow: 51px 10px 126px 19px rgba(0,0,0,0.88);
+-moz-box-shadow: 51px 10px 126px 19px rgba(0,0,0,0.88);
+}
+
+.colorprueba {
+    background-color: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 18%, rgba(174, 255, 146, 1) 47%, rgba(252, 70, 107, 1) 79%);
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    padding: 40px;
+    box-shadow: 10px 10px 5px rgb(148, 148, 148);
+    /*eje x - eje y - desenfoque - color*/
+    border-radius: 1px 50px 60px 5px;
+    border: 3px solid blue;
+
+}
+
+h2{text-shadow: 10px -11px 9px rgba(0,0,0,0.6);}
+
+
+.columnas{background-color: yellowgreen;
+    column-count: 5;
+    column-gap: 50px;
+    column-rule: 5px solid black;
+}
+
+h3{
+    color: violet;
+    font-family: 'Alkatra', cursive;
+}

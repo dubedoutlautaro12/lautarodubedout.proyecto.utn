@@ -1,0 +1,36 @@
+body {
+    background:#af92ff;
+    font-size: 30px;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background: rgb(172,149,253);
+background: linear-gradient(90deg, rgba(172,149,253,1) 0%, rgba(70,252,186,1) 50%, rgba(175,146,255,1) 99%);
+}
+
+
+
+.propuesta{
+    background-color: rgb(124, 124, 197);
+    width: 450px;
+    border: 5px solid;
+    color: black;
+    box-sizing: border-box;
+    padding: 30px;
+    box-shadow: 9px 12px 27px -3px rgba(0, 0, 0, 0.77);
+    -webkit-box-shadow: 9px 12px 27px -3px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow: 9px 12px 27px -3px rgba(0, 0, 0, 0.77);
+    border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    
+}
+
+textarea{
+    width: 300px;
+    height: 198px;
+    padding: 30px;
+}
