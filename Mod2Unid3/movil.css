@@ -1,0 +1,32 @@
+@media screen and (min-width: 800px) {
+    .contenedor{
+        width: auto;
+    }
+    h1{
+        margin-top: 0%;
+    }
+    nav {
+        background: #ffae35;
+        width: 1000px;
+    }
+    a{
+        color: black;
+        line-height: 40px;
+    }
+
+    section {
+        padding: 15px;
+        border: 2px solid black;
+        background: #F1F2C0;
+        width: auto;
+        margin-left: 0%;
+        font-size: 20px;
+    }
+    aside {
+        padding: 20px;
+        background: #CCC59E;
+        width: auto;
+        font-size: 20px;
+    }
+
+}
