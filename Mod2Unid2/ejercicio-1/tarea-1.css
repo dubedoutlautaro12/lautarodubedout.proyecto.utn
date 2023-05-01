@@ -1,0 +1,44 @@
+.caja-principal {
+	height: 500px;
+	width: 500px;
+	margin-left: 30%;
+	border: 3px solid black;
+	align-items: flex-end;
+	display: inline-flex;
+	flex-direction: column;
+}
+
+
+.item-1{
+	background-color: red;
+	height: 200px;
+	width: 200px;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.item-2{
+	background-color: blue;
+	height: 200px;
+	width: 200px;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.item-3{
+	background-color: green;
+	height: 200px;
+	width: 200px;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+

@@ -1,0 +1,34 @@
+.content{
+    width: 1000px;
+    border: 5px solid black;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item-1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.item-2{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.item-3{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
