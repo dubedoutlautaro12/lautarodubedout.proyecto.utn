@@ -1,0 +1,67 @@
+main {
+    display: inline-flex;
+
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.propuesta {
+    margin-bottom: 10px;
+
+}
+
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 10px;
+}
+
+.nosotros h2{
+    margin-bottom: 5%;
+}
+
+h2{
+    text-align: center;
+}
+
+.personas {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.persona-1{
+    text-align: center;
+    width: 50%;
+    background-color: rgb(253, 161, 55);
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+
+}
+
+.persona-2{
+    text-align: center;
+    height: 300px;
+    width: 40%;
+    background-color: rgb(253, 161, 55);
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+
+}
+
+.formulario .boton{
+    
+    text-decoration: none;
+    
+    padding: 1%;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+
+}
