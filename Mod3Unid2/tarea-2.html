@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    </head>
+
+    <body>
+        <script>
+            const numeros = [19, 12, 8, 41, 32, 4];  
+            let resultado = numeros[0];
+            for (let i = 1; i < numeros.length; i++) {
+                if (numeros[i] > resultado) {
+                    resultado = numeros[i];
+                }
+            }
+
+            console.log("El número mayor es:" + resultado);
+        </script>
+    </body>
+</html>
