@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ejercicio2.css">
+</head>
+<body>
+    <h1>EJERCICIO 2 - CONTADOR DE CARACTERES </h1>
+
+    <div>
+        <form>
+            <textarea name="caracteres" id="textarea1" cols="30" rows="10"></textarea>
+        </form>
+    </div>
+
+    <p>Caracteres: <span id="contador">0</span></p>
+
+    <script>
+        const textarea1 = document.getElementById("textarea1")
+        const contador= document.getElementById("contador")
+
+        textarea1.addEventListener("input", function(){
+            const texto= textarea1.value
+            const contar= texto.length
+            contador.innerText = contar;
+        })
+    </script>
+</body>
+</html>

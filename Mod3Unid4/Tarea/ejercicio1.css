@@ -1,0 +1,32 @@
+#botones{
+    display: flex;
+    height: 100px ;
+    margin-top: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#color1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+
+#color2{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+}
+
+#color3{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+}
+

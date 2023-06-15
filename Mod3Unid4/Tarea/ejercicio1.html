@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ejercicio1.css">
+</head>
+<body id="cuerpo">
+    <H1>EJERCICIO 1 - CAMBIAR DE COLOR </H1>
+	
+    <div id="botones">   
+    	<button id="color1"></button>
+    	<button id="color2"></button>
+    	<button id="color3"></button>
+	</div>		
+
+    <script>
+        const color1= document.getElementById("color1")
+        const color2= document.getElementById("color2")
+        const color3= document.getElementById("color3")
+        const cuerpo= document.getElementById("cuerpo")
+
+        color1.addEventListener("click", function(){
+            cuerpo.style.backgroundColor = "red";
+        })
+
+        color2.addEventListener("click", function(){
+            cuerpo.style.backgroundColor = "blue";
+        })
+
+        color3.addEventListener("click", function(){
+            cuerpo.style.backgroundColor = "green";
+        })
+    </script>
+</body>
+</html>
