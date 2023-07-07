@@ -1,0 +1,16 @@
+<h1>{{title}}</h1>
+{{#if mayor}}
+    <p>Hola {{nombre}}, usted {{mensaje}} <a href="/salir">salir</a></p>
+{{/if}}
+
+{{#unless mayor}}
+    <p>Ingrese sus datos: </p>
+    <form action="/ingresar" method="post">
+        Nombre <input type="text" name="nombre"> 
+    <form action="/ingresar" method="post">
+        Edad<input type="number" name="edad"> 
+        <button>ingresar</button>  
+    </form>
+
+    </form>
+{{/unless}}
